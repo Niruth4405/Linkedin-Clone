@@ -1,11 +1,13 @@
 import Card from "./components/Card";
 import Image from "next/image";
-import Home from "../app/Home/page"
 
 export default function Home() {
   return (
     <>
-    <Home/>
+    <h1 className='text-4xl tracking-wider'>Welcome to <span className='text-blue-600 mr-1 ml-1'>Linkedin</span>
+       Clone</h1>
+
+    
     </>
   );
 }
