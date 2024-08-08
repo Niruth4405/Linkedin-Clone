@@ -6,12 +6,13 @@ import Post from "../components/Post";
 
 function Home() {
   return (
-    <div className="w-[75%] mx-auto flex justify-evenly ">
+    <div className="mx-auto flex justify-center gap-2">
       <Card />
+
       <div>
         <CreatePost />
         <Post />
-        <Post/>
+        <Post />
       </div>
       <News />
     </div>
